@@ -26,6 +26,16 @@
 	recoil_unwielded = 0.5
 
 //-------------------------------------------------------
+// T-23 SmartSMG
+
+/obj/item/weapon/gun/smg/t23
+	flags_gun_features = GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER|GUN_IFF
+	gun_firemode_list = list(GUN_FIREMODE_SEMIAUTO, GUN_FIREMODE_AUTOMATIC)
+	gun_skill_category = GUN_SKILL_SMARTGUN //Uses SG skill for the penalties.
+	fire_delay = 0.15 SECONDS
+	wield_delay = 0.3 SECONDS
+
+//-------------------------------------------------------
 // T-19 Machinepistol. It fits here more.
 
 /obj/item/weapon/gun/smg/standard_machinepistol
@@ -353,7 +363,3 @@
 	aim_slowdown = 0.15
 	wield_delay = 0.2 SECONDS
 
-//-------------------------------------------------------
-// T-23 SmartSMG
-
-/obj/item/weapon/gun/smg/t23

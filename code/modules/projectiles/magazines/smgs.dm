@@ -6,6 +6,21 @@
 	icon_state_mini = "mag_smg"
 
 //-------------------------------------------------------
+//T-23 SMARTSMG
+
+/obj/item/ammo_magazine/rifle/standard_smartrifle
+	name = "\improper T-23 magazine (10x26mm)"
+	desc = "A 10mm smg magazine."
+	caliber = CALIBER_10x26_CASELESS
+	icon_state = "t25"
+	w_class = WEIGHT_CLASS_NORMAL
+	default_ammo = /datum/ammo/bullet/smartgun/smartrifle
+	max_rounds = 40
+	icon_state_mini = "mag_rifle_big"
+
+
+
+//-------------------------------------------------------
 //M25 SMG ammo
 
 /obj/item/ammo_magazine/smg/m25
