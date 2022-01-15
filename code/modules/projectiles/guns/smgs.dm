@@ -352,3 +352,8 @@
 	scatter_unwielded = 10
 	aim_slowdown = 0.15
 	wield_delay = 0.2 SECONDS
+
+//-------------------------------------------------------
+// T-23 SmartSMG
+
+/obj/item/weapon/gun/smg/t23

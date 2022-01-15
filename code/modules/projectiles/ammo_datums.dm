@@ -1063,6 +1063,15 @@ datum/ammo/bullet/revolver/tp44
 	penetration = 10
 	sundering = 1.5
 
+/datum/ammo/bullet/smartgun/smartsmg
+	name = "smartsmg bullet"
+	accurate_range = 8
+	damage_falloff = 1
+	sundering = 1.5
+	penetration = 5
+	accuracy_var_low = 7
+	accuracy_var_high = 7
+
 /datum/ammo/bullet/smartgun/lethal
 	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_SUNDERING
 	icon_state 	= "bullet"
