@@ -117,3 +117,10 @@
 	max_rounds = 50
 	bonus_overlay = "uzi_ex"
 	icon_state_mini = "mag_smg_yellow"
+
+//-------------------------------------------------------
+//SmartSMG
+/obj/item/ammo_magazine/smg/smartgun_name
+
+/obj/item/ammo_magazine/smg/smargun_name/extended
+
