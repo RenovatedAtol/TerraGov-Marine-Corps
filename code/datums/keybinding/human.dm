@@ -68,6 +68,18 @@
 	description = "Give the held item to the nearby marine"
 	keybind_signal = COMSIG_KB_GIVE
 
+/datum/keybinding/human/helmet_module
+	name = "helmet_module"
+	full_name = "Activate helmet module"
+	description = ""
+	keybind_signal = COMSIG_KB_HELMETMODULE
+
+/datum/keybinding/human/armor_module
+	name = "armor_module"
+	full_name = "Activate armor module"
+	description = "Default active armor module is a flashlight"
+	keybind_signal = COMSIG_KB_ARMORMODULE
+
 /datum/keybinding/human/vali_configure
 	name = "vali_configure"
 	full_name = "Configure Vali Chemical Enhancement"
