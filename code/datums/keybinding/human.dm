@@ -76,8 +76,8 @@
 
 /datum/keybinding/human/armor_module
 	name = "armor_module"
-	full_name = "Activate armor module"
-	description = "Default active armor module is a flashlight"
+	full_name = "Activate armor flashlight"
+	description = ""
 	keybind_signal = COMSIG_KB_ARMORMODULE
 
 /datum/keybinding/human/vali_configure

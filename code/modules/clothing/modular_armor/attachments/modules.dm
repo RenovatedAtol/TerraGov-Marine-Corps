@@ -367,6 +367,7 @@
 	flags_attach_features = ATTACH_REMOVABLE|ATTACH_ACTIVATION|ATTACH_APPLY_ON_MOB
 	active = FALSE
 	prefered_slot = SLOT_HEAD
+	actions_types = list(/datum/action/item_action/toggle/helmet_toggle)
 	///Mod for extra eye protection when activated.
 	var/eye_protection_mod = 2
 
@@ -411,6 +412,7 @@
 	flags_attach_features = ATTACH_REMOVABLE|ATTACH_ACTIVATION|ATTACH_APPLY_ON_MOB
 	active = FALSE
 	prefered_slot = SLOT_HEAD
+	actions_types = list(/datum/action/item_action/toggle/helmet_toggle)
 
 /obj/item/armor_module/module/welding/superior/on_attach(obj/item/attaching_to, mob/user)
 	. = ..()
@@ -429,6 +431,7 @@
 	flags_attach_features = ATTACH_REMOVABLE|ATTACH_ACTIVATION|ATTACH_APPLY_ON_MOB
 	slot = ATTACHMENT_SLOT_HEAD_MODULE
 	prefered_slot = SLOT_HEAD
+	actions_types = list(/datum/action/item_action/toggle/helmet_toggle)
 
 /obj/item/armor_module/module/binoculars/activate(mob/living/user)
 	zoom(user)
@@ -459,6 +462,7 @@
 	flags_attach_features = ATTACH_REMOVABLE|ATTACH_ACTIVATION|ATTACH_APPLY_ON_MOB
 	slot = ATTACHMENT_SLOT_HEAD_MODULE
 	prefered_slot = SLOT_HEAD
+	actions_types = list(/datum/action/item_action/toggle/helmet_toggle)
 	/// Reference to the datum used by the supply drop console
 	var/datum/supply_beacon/beacon_datum
 
