@@ -335,3 +335,8 @@
   - rscadd: Added a rouny plushie to Sulaco. It's in the telecomms room.
   - rscadd: Added a rouny plushie to Arachne. It's in the hidden hydroponics room,
       far northwest in maintenance.
+2023-10-26:
+  Pariah919:
+  - bugfix: You can't infinitely dupe flak guns in seasonal, they now spawn in a crate
+      like TAT for consistency.
+  - bugfix: Heavy laser is now the deployable variant in req for the deployable version.
